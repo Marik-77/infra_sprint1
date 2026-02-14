@@ -1,0 +1,5 @@
+ IP: 158.160.210.182;
+ name_taski: https://taski.webhop.me;
+ name_kittygram: https://kittyfree.hopto.org;
+ login: ubuntu;
+ password: ubuntu;
