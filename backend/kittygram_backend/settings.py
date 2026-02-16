@@ -2,7 +2,8 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-7)h0!_px=14v#_tcl%35avkji-d4&&9q(wai6f+z05w0-67z0)'
+SECRET_KEY = os.getenv('SECRET_KEY')
+
 DEBUG = False
 
 ALLOWED_HOSTS = ['158.160.210.182', 'kittyfree.hopto.org', 'localhost', '127.0.0.1']
