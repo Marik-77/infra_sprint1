@@ -12,7 +12,6 @@ WorkingDirectory=/home/ubuntu/infra_sprint1/backend/
 
 ExecStart=/home/ubuntu/infra_sprint1/backend/venv2/bin/gunicorn --bind 0.0.0.0:8080 kittygram_backend.wsgi
 
-Environment="DJANGO_SECRET_KEY=7)h0!_px=14v#_tcl%35avkji-d4&&9q(wai6f+z05w0-67z0)"
 
 [Install]
 
